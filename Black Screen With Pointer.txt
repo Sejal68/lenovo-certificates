@@ -1,0 +1,26 @@
+Black Screen With Pointer
+cursor after system login  predator
+
+Step 1: on the blank screen with cursor, Click 'Ctrl+Alt+Del' it will bring you the option for "Task Manager" along with other options
+
+(You can also use the key combination CTRL+SHIFT+ESC to open the Task Manager directly.)
+
+Step 2: Click on Task manager 'File '-->New Task (run)
+
+Step 3: Type at Run 'services.msc' (without quotes), it will open windows services.
+iexplore.exe
+
+Step 4: Under the services, look for the service name 'AppReadiness' and double click on the 'AppReadiness" service.
+
+Step 5: It will open 'AppReadiness' properties. Click on startup type and select 'Disabled", Click Apply and click ok.
+
+Restart the PC:
+
+Step 6: Click on Task Manager 'File' --> New Task (run)
+
+Step 7: type at Run 'CMD' (without quotes) -->It will open command prompt
+
+Step 8: At the command prompt type 'shutdown /s /f', this will shutdown the system.
+
+Restart the system and you should be able to login without any issues. 
+
